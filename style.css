@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(229, 229, 229);
+    font-family: "Teachers";
+}
+.navbar{
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(255, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1{
+    background-color: rgb(255, 117, 117);
+    font-family: "Poetsen One", sans-serif;
+    font-size: 48px;
+}
+h2{
+    display: flex;
+}
+main{
+    
+}
+.recipebox{
+    height: 30vh;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px;
+}
+img{
+    height: 30vh;
+    display: inline-block;
+    box-shadow: 0 0 3px;
+}
+.recipecontent{
+    width: 50%;
+
+}
+button{
+    float: right;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+.recipeheader{
+    width: 200px;    
+}
